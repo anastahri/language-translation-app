@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  back:
+    build: "./back"
+    volumes:
+      - "/usr/src/app/node_modules"
+    ports:
+      - "8000:8000"
+
+  front:
+    build: "./front"
+    ports:
+      - "3000:80"

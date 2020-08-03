@@ -1,8 +1,8 @@
-import axios from "axios";
+import { instance } from "./instance";
 
 const translateApi = (source, target, text) => {
   const data = { source, target, text };
-  return axios.post("http://localhost:8000/api/translate", data);
+  return instance.post("/api/translate", data);
 };
 
 export default translateApi;
