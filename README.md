@@ -39,6 +39,10 @@ $ yarn start
 
 ### Docker Compose
 
+```
+$ docker-compose up -d
+```
+
 ## Google Translation API
 
 If you keep sending requests for an extended period of time, Google Translation API may start responding with an error message (with a status 429 Too Many Requests).
