@@ -18,7 +18,7 @@ exports.translate = async function (req, res) {
 
     return res.status(400).json({
       status: 400,
-      message: `Bad request. Query parameter(s) : ${missingFields} missing`,
+      message: `Bad request. Body parameter(s): ${missingFields} missing`,
     });
   }
 

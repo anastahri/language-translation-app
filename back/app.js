@@ -1,11 +1,12 @@
 "use strict";
 
-const express = require("express");
-const config = require("./config");
+var express = require("express");
+var config = require("./config");
 var cors = require("cors");
-const translateRouter = require("./routes/translate");
+var translateRouter = require("./routes/translate");
 
-const app = express();
+var app = express();
+
 app.use(cors());
 app.use(express.json());
 
