@@ -17,4 +17,4 @@ RUN chown -R node:node .
 
 USER node
 
-CMD ["yarn", "run", "start"]
+CMD ["yarn", "deploy"]

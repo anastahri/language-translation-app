@@ -30,19 +30,21 @@ Or,
 Install backend dependencies :
 
 ```bash
-cd ./back/ && yarn
+cd ./back/
+yarn
 ```
 
 Start backend in dev mode
 
 ```bash
-yarn run dev
+yarn start
 ```
 
 Install frontend dependencies :
 
 ```bash
-cd ../front/ && yarn
+cd ../front/
+yarn
 ```
 
 Start frontend in dev mode
@@ -55,6 +57,15 @@ yarn start
 
 ```bash
 docker-compose up -d
+```
+
+## Running Tests
+
+To test the backend translation service :
+
+```bash
+cd back/
+yarn test
 ```
 
 ## Notes
